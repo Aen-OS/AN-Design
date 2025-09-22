@@ -8,7 +8,7 @@ export default function Contact() {
           Interested in starting a project?
         </h1>
         <p className="text-base">
-          If you have a project you'd like to discuss, you can email me at{" "}
+          If you have a project you{"'"}d like to discuss, you can email me at{" "}
           <Highlighter action="underline" delay={0}>
             <a className="link link-hover" href="mailto:anedjai@outlook.com">
               anedjai@outlook.com
