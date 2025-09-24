@@ -1,9 +1,10 @@
 import { TypingAnimation } from "../ui/magicui/typinganimation";
 import { Highlighter } from "../ui/magicui/rough-notation";
+import ScrollDown from "./scroll";
 
 export default function Hero() {
   return (
-    <div className="text-primary-content flex-1 grid grid-cols-1 grid-rows-8 gap-1 min-h-screen mb-20">
+    <div className="text-primary-content flex-1 grid grid-cols-1 grid-rows-8 gap-1 min-h-screen">
       <div className="row-start-2 row-span-3 flex items-center justify-center">
         <h1 className="text-3xl font-bold font-manrope">
           <span className="text-4xl">I'm Anas Nedjai👋,</span>
@@ -45,25 +46,7 @@ export default function Hero() {
           </Highlighter>
         </h2>
       </div>
-      <div className="row-start-7 row-span-2 md:row-start-8 md:row-span-1 flex flex-col items-center justify-center">
-        <p className="text-sm font-dm-sans">Scroll down for more</p>
-        <div className="animate-bounce mt-2">
-          <svg
-            className="w-6 h-6 text-base=content"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M19 14l-7 7m0 0l-7-7m7 7V3"
-            ></path>
-          </svg>
-        </div>
-      </div>
+      <ScrollDown />
     </div>
   );
 }

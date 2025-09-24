@@ -12,7 +12,7 @@ export default function Home() {
     <>
       <Hero />
       <About />
-      <div className="text-primary-content grid grid-cols-1 grid-rows-8 min-h-screen mt-10">
+      <div className="text-primary-content grid grid-cols-1 grid-rows-8 min-h-screen">
         <div className="row-span-1 row-start-1 flex items-center justify-center">
           <h1 className="text-7xl text-center font-manrope font-bold">
             My Work
@@ -20,7 +20,7 @@ export default function Home() {
         </div>
         <div className="row-start-2 flex items-center justify-center">
           <Card
-            src=""
+            src={null}
             company="bloom academy"
             link="bloom-academy-atd.pages.dev"
           />
