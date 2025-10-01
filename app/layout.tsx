@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { Manrope, DM_Sans, DM_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "../ui/navbar";
-import Banner from "../ui/banner";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/next";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -96,6 +96,7 @@ export default function RootLayout({
             </footer>
           </div>
         </div>
+        <Analytics />
         <SpeedInsights />
       </body>
     </html>
