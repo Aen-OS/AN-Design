@@ -9,7 +9,11 @@ export default function Hero() {
         <h1 className="text-3xl font-bold font-manrope">
           <span className="text-4xl">I'm Anas Nedjai👋,</span>
           <br></br>a freelance web dev 🖥️ <br></br>who helps{" "}
-          <Highlighter action="highlight" padding={0} color="oklch(80% 0.2 90)">
+          <Highlighter
+            action="highlight"
+            padding={0}
+            color="oklch(70% 0.2 230)"
+          >
             individuals
           </Highlighter>{" "}
           🙋‍♂️🙋‍♀️ and{" "}
@@ -17,7 +21,7 @@ export default function Hero() {
             action="highlight"
             delay={500}
             padding={0}
-            color="oklch(80% 0.2 90)"
+            color="oklch(70% 0.2 230)"
           >
             small businesses
           </Highlighter>{" "}
@@ -25,7 +29,7 @@ export default function Hero() {
           <Highlighter
             action="crossed-off"
             delay={1000}
-            color="oklch(60% 0.3 30)"
+            color="oklch(80% 0.2 90)"
           >
             breaking the bank
           </Highlighter>{" "}
@@ -45,7 +49,7 @@ export default function Hero() {
           <Highlighter
             action="underline"
             delay={2000}
-            color="oklch(80% 0.2 90)"
+            color="oklch(65% 0.25 140)"
           >
             <a
               href="mailto:anedjai0@gmail.com"
@@ -58,7 +62,7 @@ export default function Hero() {
           <Highlighter
             action="underline"
             delay={2000}
-            color="oklch(80% 0.2 90)"
+            color="oklch(65% 0.25 140)"
           >
             <a href="tel:+447988295902" className="link link-hover font-bold">
               +447988295902

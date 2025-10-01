@@ -1,7 +1,5 @@
 Mobile > iPad > Laptop > Desktop
 
-front page > services page
-
 TODO:
 
 - insert calendly link in sticky-banner top of page.

@@ -39,7 +39,7 @@ export default function RootLayout({
       <body
         className={`${manrope.variable} ${dmSans.variable} antialiased bg-base-300`}
       >
-        <div className="flex flex-col min-h-screen mx-auto max-w-sm">
+        <div className="flex flex-col min-h-screen mx-auto max-w-sm md:max-w-xl">
           {/* <Banner /> */}
           <Navbar />
           <div className="">
