@@ -1,16 +1,17 @@
 import { IconCloud } from "./magicui/icon-cloud";
 
 const slugs = [
+  "cloudflare",
   "javascript",
   "typescript",
   "html5",
   "css",
   "react",
+  "gsap",
   "nodedotjs",
   "express",
   "supabase",
   "nextdotjs",
-  "cloudflare",
   "postgresql",
   "mongodb",
   "netlify",
@@ -18,7 +19,6 @@ const slugs = [
   "github",
   "astro",
   "tailwindcss",
-  "gsap",
   "wordpress",
   "eleventy",
   "jamstack",
@@ -26,6 +26,7 @@ const slugs = [
   "cloudflareworkers",
   "webflow",
   "framer",
+  "gimp",
 ];
 
 export default function Skills() {
