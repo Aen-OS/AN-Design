@@ -1,3 +1,9 @@
+<div align="center">
+  <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/main/src/images/logo.png" width="100" />
+</div>
+<h1 align="center">
+  AN/Design - Web Design Agency Website
+</h1>
 Mobile > iPad > Laptop > Desktop
 
 TODO:
@@ -30,30 +36,3 @@ BLOG:
 
 - TRANSFER FROM NEXTJS TO ASTRO, WRITE BLOGS IN MARKDOWN
 - include services page?
-
----
-
-ABOUT ME VS ABOUT YOU
-
-I am a web designer & developer and I can build a website for your business, design & code, and help you with branding, either from scratch or improving/upgrading
-
-I help business/individuals/start-ups establish their online presence fast, securely, & well [without breaking the bank/without hassle/without failure]
-
-I help [target audience] achieve [a benefit they desire]
-The benefit answers your listener's question "How will my life be different?"
-
-PROMISE A BREKATHROUGH
-
-I help [target audience] achieve [a benefit they desire] without [negative consequence]
-
-PASSION
-
-I'm passionate about [something I value] to achieve [something my target audience values]
-
-MISSION
-
-I'm on a mission to [ABC] to achieve [something my target audience values]
-
-STRENGTH
-
-I'm known for [my strength] to achieve [something my target audience values]
