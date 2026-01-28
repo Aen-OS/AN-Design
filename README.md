@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/main/src/images/logo.png" width="100" />
+  <img alt="Logo" src="https://raw.githubusercontent.com/Aen-OS/AN-Design/public/logo.png" width="100" />
 </div>
 <h1 align="center">
   AN/Design - Web Design Agency Website
